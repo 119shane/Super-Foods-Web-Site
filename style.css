@@ -1,11 +1,122 @@
+/* ====$$$$$=============
+
+   Table of Contents
+
+   1. Global Styles
+   2. Typography
+   3. Layout
+        3.1. header
 
 
 
 
 
-/* temporary */
+
+
+   =============$$$$$==== */
+
+
+/* =================
+   1. Global Styles
+   ================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    padding:  0 1em;
+    background: var(--base_color_60);
+    color: var(--primary_color_30);
+
+   
+}
+
+:root {
+    --base_color_60: #f6f7eb;
+    --primary_color_30: #393e41;
+    --secondary_color_10: #e94f37;
+
+    --normal_line_height: 1.1;
+    --large_line_height: 1.5;
+
+    --normal_letter_spacing: 1px;
+    --large_letter_spacing: 2px;
+    
+    --normal_transition_time: 300ms;
+}
+
+/* =================
+   2. Typography
+   ================= */
+
+* a,
+* img,
+* i {
+    display: block;
+}
 
 img {
     width: 100%;
-    max-width: 200px;
+    max-width: 100px;
 }
+
+/* =================
+   3. Layout
+   ================= */
+
+/* 3.1 header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 60%;
+    max-width: 300px;
+    background: var(--primary_color_30);
+}
+
+.fa-times {
+    padding: .5em 1em;
+    color: var(--secondary_color_10);
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    width: 100%;
+    text-decoration: none;
+    color: var(--base_color_60);
+    font-size: 1.5rem;
+    transition: all var(--normal_transition_time);
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: var(--base_color_60);
+    color: var(--secondary_color_10);
+    font-weight: bold;
+}
+
