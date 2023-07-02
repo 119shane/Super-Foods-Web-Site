@@ -12,7 +12,7 @@
     <div class="wrapper">
         <header>
             <img src="./img/super_foods_logo.jpg" alt="company logo image" class="logo">
-            <a href="sign_in.html" class="sign_in"><i class="fa fa-user fa-2x" aria-hidden="true"></i> Sign In</a>
+            <a href="sign_in.html" class="sign_in"> Sign In <i class="fa fa-sign-in" aria-hidden="true"></i> ⦿ <i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
             <a href="cart.html" class="cart"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
             <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
             <nav>
@@ -24,9 +24,400 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-        </header>
+        </header>  
+        <main>
+            <div class="container">
+
+                <h1 class="web_site_title">super foods</h1>
+                <h2 class="company_intro">"Savor the Flavor - Delicious Burgers, Pizzas, Subs & Tacos!"</h2>
+
+                <div class="cart" id="cart" style="display: none;">
+
+                    <i class="fa fa-shopping-cart " aria-hidden="true"></i> 
+                    <h4 class="cart_title">Your Cart</h4>
+                    <a href="#" class="cart_about_deals">Check out today's Promotions</a>
+                    <div class="cart_item">
+                        <p class="car_item_code">00234</p>
+                        <p class="cart_item_name">Chicken Pizza - Large</p>
+                        <p class="cart_item_qty">01</p>
+                        <p class="cart_item_price">Rs. 2250.00</p>
+                        <p class="cart_item_total">Rs.2250.00</p>
+                    </div>
+                    <div class="cart_item">
+                        <p class="car_item_code">00454</p>
+                        <p class="cart_item_name">Pork Submarine</p>
+                        <p class="cart_item_qty">02</p>
+                        <p class="cart_item_price">Rs. 1250.00</p>
+                        <p class="cart_item_total">Rs.2500.00</p>
+                    </div>
+                    <div class="cart_item">
+                        <p class="car_item_code">00125</p>
+                        <p class="cart_item_name">Beef Burger</p>
+                        <p class="cart_item_qty">03</p>
+                        <p class="cart_item_price">Rs. 1000.00</p>
+                        <p class="cart_item_total">Rs.3000.00</p>
+                    </div>
+                    <div class="cart_total">
+                        <p class="total_name">Your Total Amount</p>
+                        <p class="total_amount">Rs. 7750.00</p>
+                    </div>
+                </div>
+        <!-- shopping cart -->
+                <div class="menu_container">
+
+                    <h1 class="menu_title">Super Burgers are Here</h1>
+                    <div class="menu_burger">
+
+                        <div class="burger_chk">
+                            <img src="./img/burgers/burger_chicken.png" alt="chicken burger image" class="menu_pic">
+                            <h4 class="item_title">Chicken Burger</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>
+                        </div>
+
+                        <div class="burger_beef">
+                            <img src="./img/burgers/burger_beef.png" alt="chicken burger image" class="menu_pic">
+                            <h4 class="item_title">Beef Burger</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>
+                        </div>
+
+                        <div class="burger_pork">
+                            <img src="./img/burgers/burger_pork.png" alt="chicken burger image" class="menu_pic">
+                            <h4 class="item_title">Pork Burger</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1750.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>
+                        </div>
+
+                    </div>
+        <!-- menu burger -->
+                    <h1 class="menu_title">Super Pizzas are Here</h1>
+                    <div class="menu_pizza">
+                        <div class="pizza_chk">
+                            <img src="./img/pizza/pizza_chicken.png" alt="chicken pizza image" class="menu_pic">
+                            <h4 class="item_title">Chicken Pizza</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
+                        </div>
+                        <div class="pizza_beef">
+                            <img src="./img/pizza/pizza_beef.png" alt="beef pizza image" class="menu_pic">
+                            <h4 class="item_title">Beef Pizza</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
+                        </div>
+                        <div class="pizza_pork">
+                            <img src="./img/pizza/pizza_pork.jpg" alt="Pork pizza image" class="menu_pic">
+                            <h4 class="item_title">Pork Pizza</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
+                        </div>
+                    </div>
+        <!-- menu pizza -->
+                    <h1 class="menu_title">Super Submarines are Here</h1>
+                    <div class="menu_sub">
+                        <div class="sub_chk">
+                            <img src="./img/sub/submarine_chicken.png" alt="chicken submarine image" class="menu_pic">
+                            <h4 class="item_title">Chicken Submarine</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
+                        </div>
+                        <div class="sub_beef">
+                            <img src="./img/sub/submarine_beef.jpg" alt="Beef submarine image" class="menu_pic">
+                            <h4 class="item_title">Beef Submarine</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
+                        </div>
+                        <div class="sub_pork">
+                            <img src="./img/sub/submarine_pork.png" alt="Pork submarine image" class="menu_pic">
+                            <h4 class="item_title">Pork Submarine</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
+                        </div>
+                    </div>
+              <!-- menu sub -->
+                    <h1 class="menu_title">Super Tacos are Here</h1>
+                    <div class="menu_taco">
+                        <div class="taco_chk">
+                            <img src="./img/tacos/taco_chicken.png" alt="chicken Taco image" class="menu_pic">
+                            <h4 class="item_title">Chicken Taco</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
+                        </div>
+                        <div class="taco_beef">
+                            <img src="./img/tacos/taco_beef.png" alt="Beef Taco image" class="menu_pic">
+                            <h4 class="item_title">Beef Taco</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
+                        </div>
+                        <div class="taco_pork">
+                            <img src="./img/tacos/taco_pork.png" alt="Pork Taco image" class="menu_pic">
+                            <h4 class="item_title">Pork Taco</h4>
+                            <label for="size_select">Size</label>
+                            <select name="size_select" id="size_select">
+                                <option value="1000">Regular (Rs. 1000.00)</option>
+                                <option value="1500">Large (Rs. 1500.00)</option>
+                                <option value="1750">Super-Sonic (Rs. 1750.00)</option>
+                            </select>
+                            <label for="qty_select">Quantity</label>
+                            <select name="qty_select" id="qty_select">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                            </select>
+                            
+                            <p class="item_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda voluptatum doloremque itaque eligendi magnam!</p>
+                            <div class="customize">
+                                <div class="chk_container">
+                                    <label for="chees">Extra Cheese (Rs. 300.00)</label>
+                                    <input type="checkbox" name="cheese" id="cheese">
+                                </div>
+                            </div>
+                            <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
+                        </div>
+                    </div>
+
+                </div>
+    <!-- menu container -->
+            </div> 
+    <!--container  -->
+        </main> 
+        <footer>
+            <small style="text-align: center; display: block;">super foods 2023 ©️ all rights received</small>
+        </footer>
 
     </div>
+    <!-- wrapper -->
 
  <script src="script.js"></script>   
 </body>

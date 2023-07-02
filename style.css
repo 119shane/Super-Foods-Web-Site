@@ -1,12 +1,13 @@
 /* ====$$$$$=============
 
-   Table of Contents
+   --//--  Table of Contents  --//--
 
-   1. Global Styles
-   2. Typography
-   3. Layout
-        3.1. header
-
+        1. Global Styles
+        2. Typography
+        3. Layout
+                3.1. header
+        4. Main
+                4.1 
 
 
 
@@ -36,7 +37,7 @@ body {
     padding:  0 1em;
     background: var(--base_color_60);
     color: var(--primary_color_30);
-
+    height: 100vh;
    
 }
 
@@ -62,6 +63,8 @@ body {
 * img,
 * i {
     display: block;
+    color: var(--secondary_color_10);
+    text-decoration: none;
 }
 
 img {
@@ -82,7 +85,7 @@ header {
 }
 
 nav {
-    /* display: none; */
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -120,3 +123,13 @@ nav ul li a:focus {
     font-weight: bold;
 }
 
+/* =================
+   3. Main
+   ================= */
+
+
+
+.menu_pic {
+    width: 100%;
+    max-width: 200px;
+}
