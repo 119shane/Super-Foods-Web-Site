@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>⦿ Super Foods</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/9c9a7459ba.js" crossorigin="anonymous"></script>
 </head>
@@ -13,10 +13,13 @@
         <header>
             <img src="./img/super_foods_logo.jpg" alt="company logo image" class="logo">
             <a href="sign_in.html" class="sign_in"> Sign In <i class="fa fa-sign-in" aria-hidden="true"></i> | <i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
-            <a href="cart.html" class="cart"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
-            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-            <nav>
-                <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+            
+            <a href="cart.html" class=".cart_icon"><i id="cart_btn" class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+
+            <i id="menu_btn" class="fa fa-bars fa-2x" aria-hidden="true"></i>
+
+            <nav id="nav">
+                <i class="fa fa-times fa-2x" id="nav_close_btn" aria-hidden="true"></i>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Menu</a></li>
@@ -34,34 +37,41 @@
                 </div>
 
                 <div class="cart" id="cart">
-
-                    <i class="fa fa-shopping-cart " aria-hidden="true"></i> 
-                    <h4 class="cart_title">Your Cart</h4>
+                    <i class="fa fa-times fa-2x" id="cart_close_btn" aria-hidden="true"></i>
+                    <h4 class="cart_heading">Your Cart  <i class="fa fa-shopping-cart" aria-hidden="true"></i></h4>
                     <a href="#" class="cart_about_deals">Check out today's Promotions</a>
+
+                    <div class="cart_title">
+                        <p>Code</p>
+                        <p>Item</p>
+                        <p>Qty</p>
+                        <p>Price Rs.</p>
+                        <p>Total Rs.</p>
+                    </div>
                     <div class="cart_item">
                         <p class="car_item_code">00234</p>
                         <p class="cart_item_name">Chicken Pizza - Large</p>
                         <p class="cart_item_qty">01</p>
-                        <p class="cart_item_price">Rs. 2250.00</p>
-                        <p class="cart_item_total">Rs.2250.00</p>
+                        <p class="cart_item_price">2250.00</p>
+                        <p class="cart_item_total">2250.00</p>
                     </div>
                     <div class="cart_item">
                         <p class="car_item_code">00454</p>
                         <p class="cart_item_name">Pork Submarine</p>
                         <p class="cart_item_qty">02</p>
-                        <p class="cart_item_price">Rs. 1250.00</p>
-                        <p class="cart_item_total">Rs.2500.00</p>
+                        <p class="cart_item_price">1250.00</p>
+                        <p class="cart_item_total">2500.00</p>
                     </div>
                     <div class="cart_item">
                         <p class="car_item_code">00125</p>
                         <p class="cart_item_name">Beef Burger</p>
                         <p class="cart_item_qty">03</p>
-                        <p class="cart_item_price">Rs. 1000.00</p>
-                        <p class="cart_item_total">Rs.3000.00</p>
+                        <p class="cart_item_price">1000.00</p>
+                        <p class="cart_item_total">3000.00</p>
                     </div>
                     <div class="cart_total">
-                        <p class="total_name">Your Total Amount</p>
-                        <p class="total_amount">Rs. 7750.00</p>
+                        <p class="total_name">Your Total Amount (Rs.)</p>
+                        <p class="total_amount">7,750.00</p>
                     </div>
                 </div>
         <!-- shopping cart -->
