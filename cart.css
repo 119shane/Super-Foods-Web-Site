@@ -44,6 +44,7 @@ body {
     color: var(--base_color_60);
     cursor: pointer;
     transition: var(--normal_transition_time);
+    margin: 1.5em 0;
 }
 
 .cart_about_deals_page:hover {

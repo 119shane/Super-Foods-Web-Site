@@ -222,6 +222,7 @@ nav ul li a:focus {
     cursor: pointer;
     color: var(--secondary_color_10);
     transition: var(--normal_transition_time);
+    margin: 1.5em 0;
 }
 
 .cart_about_deals:hover {
@@ -265,8 +266,7 @@ nav ul li a:focus {
 .item {
     padding: .1em;
     margin: 2em 0;
-    border-bottom: .5px solid var(--secondary_color_10);
-    border-right: 15px solid var(--secondary_color_10);
+    border-bottom: 15px solid var(--secondary_color_10);
 }
 
 .menu_pic {
