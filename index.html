@@ -12,9 +12,10 @@
     <div class="wrapper">
         <header>
             <img src="./img/super_foods_logo.jpg" alt="company logo image" class="logo">
-            <a href="sign_in.html" class="sign_in"> Sign In <i class="fa fa-sign-in" aria-hidden="true"></i> | <i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
+
+            <a href="sign_in.html"> Sign In <i class="fa fa-sign-in" aria-hidden="true"></i> | <i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
             
-            <a href="cart.html" class=".cart_icon"><i id="cart_btn" class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+            <a href="cart.html" class="cart_icon"><i id="cart_btn" class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
 
             <i id="menu_btn" class="fa fa-bars fa-2x" aria-hidden="true"></i>
 
@@ -37,7 +38,6 @@
                 </div>
 
                 <div class="cart" id="cart">
-                    <i class="fa fa-times fa-2x" id="cart_close_btn" aria-hidden="true"></i>
                     <h4 class="cart_heading">Your Cart  <i class="fa fa-shopping-cart" aria-hidden="true"></i></h4>
                     <a href="#" class="cart_about_deals">Check out today's Promotions</a>
 
@@ -80,7 +80,7 @@
                     <h1 class="menu_title">Super Burgers are Here</h1>
                     <div class="menu_burger">
 
-                        <div class="burger_chk">
+                        <div class="item burger_chk">
                             <img src="./img/burgers/burger_chicken.png" alt="chicken burger image" class="menu_pic">
                             <h4 class="item_title">Chicken Burger</h4>
                             <label for="size_select">Size</label>
@@ -108,8 +108,8 @@
                             <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>
                         </div>
 
-                        <div class="burger_beef">
-                            <img src="./img/burgers/burger_beef.png" alt="chicken burger image" class="menu_pic">
+                        <div class="item burger_beef">
+                            <img src="./img/burgers/burger_beef.png" alt="beef burger image" class="menu_pic">
                             <h4 class="item_title">Beef Burger</h4>
                             <label for="size_select">Size</label>
                             <select name="size_select" id="size_select">
@@ -135,8 +135,8 @@
                             <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>
                         </div>
 
-                        <div class="burger_pork">
-                            <img src="./img/burgers/burger_pork.png" alt="chicken burger image" class="menu_pic">
+                        <div class="item burger_pork">
+                            <img src="./img/burgers/burger_pork.png" alt="Pork burger image" class="menu_pic">
                             <h4 class="item_title">Pork Burger</h4>
                             <label for="size_select">Size</label>
                             <select name="size_select" id="size_select">
@@ -166,7 +166,7 @@
         <!-- menu burger -->
                     <h1 class="menu_title">Super Pizzas are Here</h1>
                     <div class="menu_pizza">
-                        <div class="pizza_chk">
+                        <div class="item pizza_chk">
                             <img src="./img/pizza/pizza_chicken.png" alt="chicken pizza image" class="menu_pic">
                             <h4 class="item_title">Chicken Pizza</h4>
                             <label for="size_select">Size</label>
@@ -193,7 +193,7 @@
                             </div>
                             <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
                         </div>
-                        <div class="pizza_beef">
+                        <div class="item pizza_beef">
                             <img src="./img/pizza/pizza_beef.png" alt="beef pizza image" class="menu_pic">
                             <h4 class="item_title">Beef Pizza</h4>
                             <label for="size_select">Size</label>
@@ -220,7 +220,7 @@
                             </div>
                             <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
                         </div>
-                        <div class="pizza_pork">
+                        <div class="item pizza_pork">
                             <img src="./img/pizza/pizza_pork.jpg" alt="Pork pizza image" class="menu_pic">
                             <h4 class="item_title">Pork Pizza</h4>
                             <label for="size_select">Size</label>
@@ -251,7 +251,7 @@
         <!-- menu pizza -->
                     <h1 class="menu_title">Super Submarines are Here</h1>
                     <div class="menu_sub">
-                        <div class="sub_chk">
+                        <div class="item sub_chk">
                             <img src="./img/sub/submarine_chicken.png" alt="chicken submarine image" class="menu_pic">
                             <h4 class="item_title">Chicken Submarine</h4>
                             <label for="size_select">Size</label>
@@ -278,7 +278,7 @@
                             </div>
                             <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
                         </div>
-                        <div class="sub_beef">
+                        <div class="item sub_beef">
                             <img src="./img/sub/submarine_beef.jpg" alt="Beef submarine image" class="menu_pic">
                             <h4 class="item_title">Beef Submarine</h4>
                             <label for="size_select">Size</label>
@@ -305,7 +305,7 @@
                             </div>
                             <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
                         </div>
-                        <div class="sub_pork">
+                        <div class="item sub_pork">
                             <img src="./img/sub/submarine_pork.png" alt="Pork submarine image" class="menu_pic">
                             <h4 class="item_title">Pork Submarine</h4>
                             <label for="size_select">Size</label>
@@ -336,7 +336,7 @@
               <!-- menu sub -->
                     <h1 class="menu_title">Super Tacos are Here</h1>
                     <div class="menu_taco">
-                        <div class="taco_chk">
+                        <div class="item taco_chk">
                             <img src="./img/tacos/taco_chicken.png" alt="chicken Taco image" class="menu_pic">
                             <h4 class="item_title">Chicken Taco</h4>
                             <label for="size_select">Size</label>
@@ -363,7 +363,7 @@
                             </div>
                             <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
                         </div>
-                        <div class="taco_beef">
+                        <div class="item taco_beef">
                             <img src="./img/tacos/taco_beef.png" alt="Beef Taco image" class="menu_pic">
                             <h4 class="item_title">Beef Taco</h4>
                             <label for="size_select">Size</label>
@@ -390,7 +390,7 @@
                             </div>
                             <button class="add_to_cart_btn btn">Add to <i class="fa fa-shopping-cart " aria-hidden="true"></i> </button>   
                         </div>
-                        <div class="taco_pork">
+                        <div class="item taco_pork">
                             <img src="./img/tacos/taco_pork.png" alt="Pork Taco image" class="menu_pic">
                             <h4 class="item_title">Pork Taco</h4>
                             <label for="size_select">Size</label>
@@ -423,11 +423,6 @@
     <!-- menu container -->
             </div> 
     <!--container  -->
-        </main> 
-        <footer>
-            <small style="text-align: center; display: block;">super foods 2023 ©️ all rights received</small>
-        </footer>
-
     </div>
     <!-- wrapper -->
 

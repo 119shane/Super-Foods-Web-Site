@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --base_color_60: #f6f7eb;
     --primary_color_30: #393e41;
@@ -30,7 +35,6 @@
 }
 
 .cart_page {
-    margin-top: 1em;
     padding: 1em;
     background: rgba(0,0,0,.4);
     color: var(--base_color_60);
